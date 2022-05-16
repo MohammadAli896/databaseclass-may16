@@ -1,0 +1,15 @@
+<p>
+  <strong>Title:</strong>
+  <%= skill.name %>
+</p>
+ 
+<p>
+  <strong>Level:</strong>
+  <%= skill.level %>
+</p>
+
+<p>
+  <%= link_to 'Destroy Skill', [skill.resume, skill],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+</p>
